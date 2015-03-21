@@ -18,7 +18,7 @@ before_install:
 
 env:
   global:
-    - DX_HEAP_SIZE=1337
+    - DX_HEAP_SIZE=1300
     - RUBOTO_UPDATE_EXAMPLES=0
     - TEST_SCRIPT=test/arjdbc_test.rb
 
