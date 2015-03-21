@@ -287,6 +287,12 @@ file BUILD_XML_FILE => RUBOTO_CONFIG_FILE do
 
 <!-- FIXME(uwe): Remove debug -->
 <exec executable="free" os="Linux"/>
+<exec executable="ps" os="Linux">
+  <arg line="aux --sort -vsz"/>
+</exec>
+<exec executable="free" os="Linux">
+  <arg line="aux --sort -rss"/>
+</exec>
 <!-- EMXIF -->
 
                     <delete file="${out.absolute.dir}/classes2.dex"/>
