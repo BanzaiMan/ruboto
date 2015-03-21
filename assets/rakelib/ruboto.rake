@@ -290,7 +290,7 @@ file BUILD_XML_FILE => RUBOTO_CONFIG_FILE do
 <exec executable="ps" os="Linux">
   <arg line="aux --sort -vsz"/>
 </exec>
-<exec executable="free" os="Linux">
+<exec executable="ps" os="Linux">
   <arg line="aux --sort -rss"/>
 </exec>
 <!-- EMXIF -->
