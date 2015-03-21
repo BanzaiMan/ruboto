@@ -554,7 +554,7 @@ task '.travis.yml' do
   test_parts = 1
   # FIXME(uwe):  Test the newest api levels
   # [21, 19, 18, 17, 16, 15].each.with_index do |api, i|
-  [19, 15].each.with_index do |api, i|
+  [19].each.with_index do |api, i|
     n = i
     # FIXME(uwe):  JRuby 1.7.13 works for Nettbuss
     # FIXME(uwe):  JRuby 1.7.14 has a malformed gem
